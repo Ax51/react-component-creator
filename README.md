@@ -1,13 +1,14 @@
 This is a simple CLI utility to helps create React Components.
 
 It could be configured to create a folder, named as the given component name, which has such structure:
-
+<pre>
 [path to components folder]
 ├── Component
 │   ├── index.ts
 │   ├── Component.tsx
 │   ├── Component[.module].css
 │   └── Component.spec.ts
+</pre>
 
 While you use this util first time, it asks you to config fhe followind properties:
 1) default path to the components (such as ./src/Components)
@@ -23,6 +24,9 @@ After initial setup this util, next time you could use it in 2 ways:
 1) Interactive. Just run it (npx @ax51/react-component-creator) and interactively tells new Component name
 2) Pass arguments while call util. First argument will be Component name, and the second (optional) is the
 custom path (doesn't override settings);
-For example: npx @ax51/react-component-creator Header ./view/components
-                              ^                  ^              ^
-                         package name     Component name    custom path
+For example:
+<pre>
+npx @ax51/react-component-creator Header ./view/components
+                 ^                  ^              ^
+            package name     Component name    custom path
+</pre>
