@@ -1,0 +1,28 @@
+{
+  "name": "ax51-react-component-creator",
+  "version": "1.0.0",
+  "description": "CPI utility to simplify creation of react components with default reexport, styles, test file and etc.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "create": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ax51/react-component-creator.git"
+  },
+  "keywords": [
+    "CLI",
+    "react",
+    "component-creator",
+    "components",
+    "utils",
+    "helper"
+  ],
+  "author": "Ax51",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ax51/react-component-creator/issues"
+  },
+  "homepage": "https://github.com/Ax51/react-component-creator#readme"
+}
