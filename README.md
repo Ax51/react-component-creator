@@ -1,4 +1,31 @@
+
 This is a simple CLI utility to helps create React Components.
+
+You can install it using your favorite package manager: 
+```
+npm i -D @ax51/react-component-creator
+```
+```
+yarn add -D @ax51/react-component-creator
+```
+```
+pnpm i -D @ax51/react-component-creator
+```
+```
+bun add -d @ax51/react-component-creator
+```
+
+Or you could simply use it without installing as dependence: 
+
+ ```
+ npx @ax51/react-component-creator
+ ```
+ ```
+ yarn dlx @ax51/react-component-creator
+ ```
+ ```
+ pnpm dlx @ax51/react-component-creator
+ ```
 
 It could be configured to create a folder, named as the given component name, which has such structure:
 <pre>
