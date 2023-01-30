@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import { access, mkdir, writeFile } from "fs/promises";
 import { createInterface } from "readline";
 

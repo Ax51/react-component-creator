@@ -1,11 +1,16 @@
 {
-  "name": "ax51-react-component-creator",
-  "version": "1.0.0",
+  "name": "@ax51/react-component-creator",
+  "version": "1.0.9",
   "description": "CPI utility to simplify creation of react components with default reexport, styles, test file and etc.",
+  "type": "module",
   "main": "index.js",
+  "bin": "./index.js",
+  "engines": {
+    "node": ">=16.13.2"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "create": "node index.js"
+    "@ax51/react-component-creator": "node index.js"
   },
   "repository": {
     "type": "git",

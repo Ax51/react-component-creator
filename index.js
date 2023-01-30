@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import { access, readFile } from "fs/promises";
 import { ensureFolder, ask, safeWrite } from "./utils.js";
 
